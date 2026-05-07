@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <title>JokenPO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Quadro de Opções e Resultados -->
+    <div class="container">
+
+        <!-- Título -->
+        <h1>JokenPô</h1>
+
+        <!-- Botões de Escolha -->
+        <div class="buttons">
+            <button id="rock" class="btn">&#x270A</button>
+            <button id="paper" class="btn">&#x1F590</button>
+            <button id="scissors" class="btn">&#x270C</button>
+        </div>
+
+        <!-- Exibição de Resultados -->
+        <div class="result">
+            <p id="user-choice">Sua escolha: <span>-</span></p>
+            <p id="computer-choice">Escolha do JokenBot: <span>-</span></p>
+            <p id="outcome">Resultado: <span>-</span></p>
+        </div>
+
+        <!-- Placar -->
+        <div class="score">
+            <p id="user-score">Você: <span>0</span></p>
+            <p id="computer-score">JokenBot: <span>0</span></p>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+</html>
