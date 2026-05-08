@@ -27,9 +27,26 @@
 
         <!-- Exibição de Resultados -->
         <div class="result">
-            <p id="user-choice">Sua escolha: <span>-</span></p>
-            <p id="computer-choice">Escolha do JokenBot: <span>-</span></p>
-            <p id="outcome">Resultado: <span>-</span></p>
+            <!-- Seção das Escolhas -->
+            <div class="choices">
+                <div class="choice">
+                    <div class="choice-label">Sua Escolha</div>
+                    <div class="choice-emoji" id="user-emoji">-</div>
+                    <div class="choice-value" id="user-choice">-</div>
+                </div>
+                <div class="vs-separator">vs</div>
+                <div class="choice">
+                    <div class="choice-label">JokenBot</div>
+                    <div class="choice-emoji" id="computer-emoji">-</div>
+                    <div class="choice-value" id="computer-choice">-</div>
+                </div>
+            </div>
+
+            <!-- Seção do Resultado -->
+            <div class="outcome-section" id="outcome-display">
+                <div class="outcome-label">Resultado</div>
+                <div class="outcome-text" id="outcome">-</div>
+            </div>
         </div>
 
         <!-- Placar -->
