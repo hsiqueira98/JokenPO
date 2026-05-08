@@ -65,7 +65,6 @@ h1 {
     box-shadow: 0 2px 8px rgba(16, 185, 129, 0.2);
 }
 
-/* ===== CARD DE ESCOLHAS ===== */
 .result {
     width: 100%;
     padding: 0;
@@ -77,7 +76,6 @@ h1 {
     gap: 16px;
 }
 
-/* Seção das Escolhas */
 .choices {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -133,7 +131,6 @@ h1 {
     font-weight: 300;
 }
 
-/* Seção do Resultado */
 .outcome-section {
     padding: 20px;
     background: linear-gradient(135deg, #f0f4ff 0%, #faf3ff 100%);
@@ -164,7 +161,6 @@ h1 {
     color: #7c3aed;
 }
 
-/* Estados do resultado (você pode adicionar classes dinamicamente com JS) */
 .outcome-section.win {
     background: linear-gradient(135deg, #d1fae5 0%, #ecfdf5 100%);
     border-color: #a7f3d0;
@@ -198,7 +194,6 @@ h1 {
     color: #d97706;
 }
 
-/* ===== CARD DE PLACAR ===== */
 .score {
     width: 100%;
     padding: 24px;
@@ -237,7 +232,6 @@ h1 {
     text-align: center;
 }
 
-/* Responsividade */
 @media (max-width: 480px) {
     .container {
         padding: 28px;
@@ -271,7 +265,6 @@ h1 {
     }
 }
 
-/* ===== ANIMAÇÕES DO MODAL E CONFETES ===== */
 @keyframes bounceIn {
     0% {
         opacity: 0;
@@ -336,7 +329,6 @@ h1 {
     }
 }
 
-/* ===== ESTILOS DO MODAL ===== */
 .game-modal {
     position: fixed;
     top: 0;
@@ -415,7 +407,6 @@ h1 {
     transform: translateY(0);
 }
 
-/* ===== CONFETES ===== */
 .confetti-container {
     position: fixed;
     top: 0;
